@@ -13,7 +13,8 @@
             <p>{{message}}</p>
         {%endfor%}
     {% endif %}
-
+    {{data.domain}}
+<a href="{% url 'user_change_pass' %}">Change Password</a>
 <a href="{% url 'user_logout' %}">Logout</a>
     
 </body>
